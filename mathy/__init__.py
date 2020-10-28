@@ -1,3 +1,16 @@
+def sqfoot(x, y):
+    """takes height(ft) and width(ft)  both as int or float of floor and returns square footage"""
+    return(x*y)
+
+def circum(radius):
+    """takes circle radius and (int or float) and returns circumference"""
+    from math import pi
+    return(2*radius*pi)
+
+
+
+
+
 def doMath(string):
     """ Does Basic math in PEMDAS order .  String must have all elements seperated by a space.  ie doMath('2 - 3 * 2 / 2')"""
     s=string.split()
